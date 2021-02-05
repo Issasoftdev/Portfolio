@@ -23,21 +23,6 @@ body, html {
   box-sizing: border-box;
 }
 
-.bgImage {
-  
-  background-image:url("../Images/Album Covers/Pomegranate.jpg");
-
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
 .sidebar {
 	height: 100%; 
 	width: 100px; 
