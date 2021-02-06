@@ -1,9 +1,49 @@
-@charset "utf-8";
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Kanit:700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, a {
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+	text-decoration: none;
+}
 
 
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 10%;
+	background-color: #91a0ae;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
 
 /*
+
+.homeMainContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	align-content: center;
+}
+
 * {
 	font-family: "Lato"
 }
@@ -17,25 +57,12 @@ p {
 
 }
 
-body, html {
-  height: 100%;
-}
-
 * {
   box-sizing: border-box;
 }
 
 
-.homeMainContent {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	z-index: 2;
-	width: 80%;
-	padding: 20px;
-	align-content: center;
-}
+
 
 .centerPiece {
 	display: block;
@@ -79,4 +106,4 @@ body, html {
   flex: 25%;
   padding: 5px;
 }
-
+*/
