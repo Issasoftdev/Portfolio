@@ -10,25 +10,28 @@
 
 li, a {
 	font-family: "Kanit", serif;
+	font-size: 18px;
 	color: #ecf0f1;
 	text-decoration: none;
 }
 
 header {
+	background-color: #91a0ae;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	padding: 20px 10%;
-	background-color: #91a0ae;
+
 }
 
+
 .nav_links {
+	display: flex;
 	list-style: none;
 }
 
 .nav_links li {
-	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 /*Navbar*/
