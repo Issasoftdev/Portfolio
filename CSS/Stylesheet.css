@@ -6,13 +6,28 @@
 	padding: 0;
 }
 
-.container {
+/* Bodies */
+
+.homeContainer {
 	font-family: "Kanit", serif;
 	height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 50px auto 30px;
 }
+
+.portContainer {
+	font-family: "Kanit", serif;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 50px auto 30px;
+}
+
+.portContainer h1 {
+	color: #ecf0f1;
+}
+
+/* Bodies */
 
 /*Navbar*/
 
@@ -45,7 +60,7 @@ header {
 
 /*Navbar*/
 
-/* Main */
+/* Mains */
 
 .tagskillsSection {
 	background-color: #222f33;
@@ -76,7 +91,8 @@ header {
 .Skills ul {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-end;
+	padding: 10px;
 }
 
 .Skills li {
@@ -99,6 +115,15 @@ padding: 10px;
 	color: #ecf0f1;
 	font-size: 50px;
 }
+
+.portfolioRack {
+	background-color: #222f33;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Mains */
 
 /* Footer */
 
