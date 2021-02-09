@@ -6,6 +6,14 @@
 	padding: 0;
 }
 
+.container {
+	font-family: "Kanit", serif;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 50px auto 30px;
+}
+
 /*Navbar*/
 
 li, a {
@@ -17,6 +25,7 @@ li, a {
 
 header {
 	background-color: #91a0ae;
+	grid-column: 1 / -1;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -35,3 +44,38 @@ header {
 }
 
 /*Navbar*/
+
+/* Main */
+
+.tagskillsSection {
+	background-color: #222f33;
+	grid-column: 1 / 3;
+	grid-row: 2 / 3;
+}
+
+.Nametag h1 {
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+	font-size: 45px;
+}
+
+.mainSection {
+	background-image: url(../Images/Photos/APSunset.JPG);
+	background-size: cover;
+	grid-column: 3 / -1;
+	grid-row: auto;
+}
+
+.mainSection h1 {
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+	font-size: 50px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #91a0ae;
+	grid-column: 1 / -1;
+	grid-row: 3 / -1;
+}
