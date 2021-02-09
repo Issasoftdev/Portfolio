@@ -39,3 +39,28 @@ header {
 }
 
 /*Navbar*/
+
+.tagskillsSection {
+	background-color: #222f33;
+}
+
+.Nametag h1 {
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+	font-size: 45px;
+}
+
+.mainSection {
+	background-image: url(../Images/Photos/APSunset.JPG);
+	background-size: cover;
+}
+
+.mainSection h1 {
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+	font-size: 50px;
+}
+
+footer {
+	background-color: #91a0ae;
+}
