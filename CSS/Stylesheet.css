@@ -146,3 +146,44 @@ footer {
 	align-items: center;
 }
 
+
+@media only screen and (max-width: 750px) {
+	.homeContainer {
+		grid-template-columns: 1fr;
+		grid-template-rows: 50px 1fr 1fr 30px;
+	}
+
+	header {
+		grid-column: 1 / -1;
+		grid-row: 1 / 2;
+		display: flex;
+		justify-content: center;
+	}
+
+	.tagskillsSection {
+		grid-column: 1 / -1;
+		grid-row: 2 / 3;
+	}
+
+	.Skills ul {
+		justify-content: center;
+		align-items: center;
+	}
+	.Skills {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mainSection {
+		height: 400px;
+		grid-column: 1 /-1;
+		grid-row: 3 / 4;
+	}
+
+	footer {
+		grid-column: 1 / -1;
+		grid-row: 4 / -1;
+	}
+}
