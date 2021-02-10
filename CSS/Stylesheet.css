@@ -20,11 +20,17 @@
 	font-family: "Kanit", serif;
 	height: 100vh;
 	display: grid;
+	grid-template-columns: 1fr ;
 	grid-template-rows: 50px auto 30px;
 }
 
 .portContainer h1 {
 	color: #ecf0f1;
+}
+
+img {
+	height: 150px;
+	width: 300px;
 }
 
 /* Bodies */
@@ -118,9 +124,13 @@ padding: 10px;
 
 .portfolioRack {
 	background-color: #222f33;
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+}
+
+.rackItems {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 300px;
 }
 
 /* Mains */
