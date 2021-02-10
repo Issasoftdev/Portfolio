@@ -147,7 +147,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media screen and (max-width: 750px) and (min-width: 0px) {
 	.homeContainer {
 		grid-template-columns: 1fr;
 		grid-template-rows: 50px 1fr 1fr 30px;
