@@ -252,23 +252,23 @@ footer {
 
 /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */
 
+/* Responsiveness */ /* Responsiveness */ /* Responsiveness */ /* Responsiveness */ /* Responsiveness */
 
-@media screen and (max-width: 550px) and (min-width: 0px) {
+@media screen and (max-width: 550px) {
+
 	.homeContainer {
 		grid-template-columns: 1fr;
-		grid-template-rows: 50px 1fr 1fr 30px;
+		grid-template-rows: 50px;
 	}
 
 	header {
-		grid-column: 1 / -1;
-		grid-row: 1 / 2;
+		grid-area: h;
 		display: flex;
 		justify-content: center;
 	}
 
 	.tagskillsSection {
-		grid-column: 1 / -1;
-		grid-row: 2 / 3;
+		grid-area: tss;
 	}
 
 	.Skills ul {
@@ -283,13 +283,12 @@ footer {
 	}
 
 	.mainSection {
+		grid-area: ms;
 		height: 400px;
-		grid-column: 1 /-1;
-		grid-row: 3 / 4;
 	}
 
 	footer {
 		grid-column: 1 / -1;
-		grid-row: auto / -1;
+
 	}
 }
