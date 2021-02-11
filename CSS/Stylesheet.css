@@ -148,6 +148,10 @@ padding: 10px;
 	grid-row: 2 / 3;
 }
 
+.portfolioRack h2 {
+	color: #ecf0f1;
+}
+
 .rackItems {
 	display: flex;
 	width: 300px;
