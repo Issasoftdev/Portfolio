@@ -6,7 +6,7 @@
 	padding: 0;
 }
 
-/* Bodies */
+/* Bodies */ /* Bodies */ /* Bodies */ /* Bodies */ /* Bodies */
 
 .homeContainer {
 	font-family: "Kanit", serif;
@@ -53,16 +53,20 @@ img {
 	width: 300px;
 }
 
-/* Bodies */
+/* Portfolios*/ /* Portfolios*/
 
-/*Navbar*/
-
-li, a {
+.vectorContainer {
 	font-family: "Kanit", serif;
-	font-size: 18px;
-	color: #ecf0f1;
-	text-decoration: none;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 50px auto 30px;
+
 }
+
+/* Bodies */ /* Bodies */ /* Bodies */ /* Bodies */ /* Bodies */
+
+/*Header*/ /*Header*/ /*Header*/ /*Header*/ /*Header*/
 
 header {
 	background-color: #91a0ae;
@@ -74,6 +78,14 @@ header {
 
 }
 
+li, a {
+	font-family: "Kanit", serif;
+	font-size: 18px;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+
 
 .nav_links {
 	display: flex;
@@ -84,9 +96,11 @@ header {
 	list-style: none;
 }
 
-/*Navbar*/
+/*Header*/ /*Header*/ /*Header*/ /*Header*/ /*Header*/
 
-/* Mains */
+/* Mains */ /* Mains */ /* Mains */ /* Mains */ /* Mains */
+
+/* Landing Page */ /* Landing Page */ 
 
 .tagskillsSection {
 	background-color: #222f33;
@@ -142,6 +156,10 @@ padding: 10px;
 	font-size: 50px;
 }
 
+/* Landing Page */ /* Landing Page */ 
+
+/* Portfolio Page */ /* Portfolio Page */ 
+
 .portfolioRack {
 	background-color: #222f33;
 	grid-column: 1 / -1;
@@ -191,13 +209,34 @@ padding: 10px;
 	background: black;
 }
 
+/* Portfolio Page */ /* Portfolio Page */
+
+/* Contact Page */ /* Contact Page */ 
+
 .contactDetails {
 	background-color: #222f33;
 }
 
-/* Mains */
+/* Contact Page */ /* Contact Page */ 
 
-/* Footer */
+/* Vector Page*/ /* Vector Page*/
+
+.vectorGallery {
+	grid-column: 1 / -1;
+	background-color: #222f33;
+	display: flex;
+}
+
+.vectorImg {
+	height: 250px;
+	width: 250px;
+}
+
+/* Vector Page*/ /* Vector Page*/
+
+/* Mains */ /* Mains */ /* Mains */ /* Mains */ /* Mains */
+
+/* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */
 
 footer {
 	background-color: #91a0ae;
@@ -207,6 +246,8 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */
 
 
 @media screen and (max-width: 550px) and (min-width: 0px) {
