@@ -225,11 +225,14 @@ padding: 10px;
 	grid-column: 1 / -1;
 	background-color: #222f33;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .vectorImg {
 	height: 250px;
 	width: 250px;
+	padding: 20px;
 }
 
 /* Vector Page*/ /* Vector Page*/
