@@ -28,6 +28,26 @@
 	color: #ecf0f1;
 }
 
+.contactContainer {
+	font-family: "Kanit", serif;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 50px auto 30px;
+}
+
+.contactContainer h2, p {
+	color: #ecf0f1;
+
+}
+
+.contactDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 img {
 	height: 150px;
 	width: 300px;
@@ -57,11 +77,11 @@ header {
 
 .nav_links {
 	display: flex;
-	list-style: none;
 }
 
 .nav_links li {
 	padding: 0px 20px;
+	list-style: none;
 }
 
 /*Navbar*/
@@ -133,6 +153,10 @@ padding: 10px;
 	width: 300px;
 }
 
+.contactDetails {
+	background-color: #222f33;
+}
+
 /* Mains */
 
 /* Footer */
@@ -184,6 +208,6 @@ footer {
 
 	footer {
 		grid-column: 1 / -1;
-		grid-row: 4 / -1;
+		grid-row: auto / -1;
 	}
 }
