@@ -146,15 +146,59 @@ padding: 10px;
 	background-color: #222f33;
 	grid-column: 1 / -1;
 	grid-row: 2 / 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
 }
+
 
 .portfolioRack h2 {
 	color: #ecf0f1;
 }
 
-.rackItems {
+.carousel_trackContainer {
+	background-color: #91a0ae;
+}
+
+.carousel_track {
+	list-style: none;
 	display: flex;
-	width: 300px;
+	transform: translateX(0);
+	transition: transform 0.25s;
+}
+
+.carousel_slide {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.carousel_button {
+	
+	background: transparent;
+	border: 0;
+	border-radius: 50%;
+	height: 3em;
+	font-family: "Kanit", serif;
+	color: #ecf0f1;
+}
+
+.carousel_nav {
+	display: flex;
+	justify-content: center;
+	margin: 0 10px;	
+}
+
+.carousel_indicator {
+	border: 0;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background: black;
 }
 
 .contactDetails {
