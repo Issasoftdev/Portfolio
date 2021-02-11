@@ -158,18 +158,8 @@ padding: 10px;
 	color: #ecf0f1;
 }
 
-.carousel_trackContainer {
-	background-color: #91a0ae;
-}
 
-.carousel_track {
-	list-style: none;
-	display: flex;
-	transform: translateX(0);
-	transition: transform 0.25s;
-}
-
-.carousel_slide {
+.portfolioItem {
 	height: 250px;
 	width: 250px;
 	display: flex;
