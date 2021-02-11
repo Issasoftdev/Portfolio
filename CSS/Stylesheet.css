@@ -30,13 +30,17 @@
 	font-family: "Kanit", serif;
 	height: 100vh;
 	display: grid;
-	grid-template-columns: 1fr ;
-	grid-template-rows: 50px auto 30px;
+	grid-template-rows: 200px 1fr;
 }
 
-.contactContainer h2, p {
+.contactContainer h2 {
 	color: #ecf0f1;
+	font-size: 80px;
+}
 
+.contactContainer p {
+	color: #ecf0f1;
+	font-size: 50px;
 }
 
 .contactDetails {
