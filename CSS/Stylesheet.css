@@ -137,6 +137,7 @@ li, a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 100px 0;
 }
 
 .Skills ul {
@@ -147,7 +148,7 @@ li, a {
 
 .Skills li {
 	list-style: none;
-	padding: 30px 0;
+	padding: 50px 0;
 }
 
 .mainSection {
