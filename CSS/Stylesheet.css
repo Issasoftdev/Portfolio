@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -69,7 +70,7 @@ img {
 /*Header*/ /*Header*/ /*Header*/ /*Header*/ /*Header*/
 
 header {
-	background-color: #91a0ae;
+	background-color: #E1AD01;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -83,8 +84,6 @@ li, a {
 	color: #ecf0f1;
 	text-decoration: none;
 }
-
-
 
 .nav_links {
 	display: flex;
@@ -112,7 +111,9 @@ li, a {
 	border-width: 10px;
 	border-color: #ecf0f1;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	padding: 50px 0;
 }
 
@@ -120,7 +121,16 @@ li, a {
 	font-family: "Kanit", serif;
 	color: #ecf0f1;
 	font-size: 80px;
+	padding: 20px;
 }
+
+.Nametag h2 {
+	font-family: "Julius Sans One", sans-serif;
+	color: #ecf0f1;
+	font-size: 30px;
+	padding: 20px;
+}
+
 
 .Skills {
 	height: 100%;
@@ -136,9 +146,9 @@ li, a {
 }
 
 .Skills li {
-list-style: none;
-padding: 30px 0;
-} 
+	list-style: none;
+	padding: 30px 0;
+}
 
 .mainSection {
 	background-image: url(../Images/Photos/APSunset.JPG);
@@ -213,7 +223,7 @@ padding: 30px 0;
 
 footer {
 	height: 100px;
-	background-color: #91a0ae;
+	background-color: #E1AD01;
 	font-size: 40px;
 	display: flex;
 	justify-content: center;
