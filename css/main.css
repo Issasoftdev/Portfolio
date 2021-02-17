@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-color: #222f33;
+  margin: 0;
+  padding: 0;
+  color: #ecf0f1;
+}
+
+.homeContainer {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80px 150px 1fr 1fr 40px;
+      grid-template-rows: 80px 150px 1fr 1fr 40px;
+      grid-template-areas: 'h' 'l' 's' 'hero' 'f';
+}
+
+header {
+  font-family: 'Metropolis black', serif;
+  background-color: #E1AD01;
+  grid-area: 'h';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.logo {
+  grid-area: 'l';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-family: 'Neostone', serif;
+  font-size: 50px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.skills ul li h3 {
+  font-family: 'Trajan Pro', sans-serif;
+  font-size: 20px;
+}
+
+.heroSection {
+  background-color: #222f33;
+  background-image: url(../Images/Photos/APSunset.JPG);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroSection h1 {
+  font-family: 'Metropolis Black', serif;
+}
+
+footer {
+  background-color: #E1AD01;
+  grid-column: 1 / -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h6 {
+  font-family: 'Metropolis black', serif;
+  font-size: 13px;
+}
+/*# sourceMappingURL=main.css.map */
