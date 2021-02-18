@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url(../fonts/trajan-pro/TrajanPro-Bold.otf);
+  font-style: normal;
+}
+
 :root {
   --primary-text-color: #ecf0f1;
   --primary-background-color: #222f33;
