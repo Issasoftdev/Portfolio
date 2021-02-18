@@ -51,7 +51,6 @@ header {
     nav {
 
         ul {
-
             display: flex;
 
             li {
@@ -91,15 +90,20 @@ header {
         padding: 0;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         
         li {
             list-style: none;
             margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             h3 {
                 font-family: 'Trajan Pro', sans-serif;
                 font-size: 20px;
+                display: flex;
             }
         }
     }
@@ -128,5 +132,41 @@ footer {
     h6 {
         font-family: 'Metropolis black', serif;
         font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 76px 1fr 40px;
+    }
+
+    header {
+        grid-column: 1 / -1;
+
+        nav {
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+    .heroSection {
+        grid-column: 2 / -1;
+        height: 100%;
+    }
+
+    footer {
+        grid-column: 1 / -1;
     }
 }

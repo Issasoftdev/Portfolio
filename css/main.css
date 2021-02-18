@@ -105,6 +105,9 @@ header nav ul li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -113,11 +116,23 @@ header nav ul li a {
 .skills ul li {
   list-style: none;
   margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .skills ul li h3 {
   font-family: 'Trajan Pro', sans-serif;
   font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .heroSection {
@@ -156,5 +171,48 @@ footer {
 footer h6 {
   font-family: 'Metropolis black', serif;
   font-size: 13px;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 3fr;
+        grid-template-columns: 1fr 3fr;
+    -ms-grid-rows: 76px 1fr 40px;
+        grid-template-rows: 76px 1fr 40px;
+  }
+  header {
+    grid-column: 1 / -1;
+  }
+  header nav {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .heroSection {
+    grid-column: 2 / -1;
+    height: 100%;
+  }
+  footer {
+    grid-column: 1 / -1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
