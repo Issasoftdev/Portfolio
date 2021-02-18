@@ -191,6 +191,10 @@ footer h6 {
 }
 
 /* Portfolio Page */
+/* Portfolio Page */
+/* Portfolio Page */
+/* Portfolio Page */
+/* Portfolio Page */
 .portfolioRack {
   height: 100%;
   display: -webkit-box;
@@ -224,6 +228,48 @@ footer h6 {
   font-family: 'Trajan Pro', serif;
   text-decoration: none;
   color: var(--primary-text-color);
+}
+
+/* Portfolios*/
+/* Portfolios*/
+/* Portfolios*/
+.projectRack {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectRack .projects {
+  list-style: none;
+}
+
+.projectRack .projects .projectItem {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectRack .projects .projectItem a {
+  font-family: 'Trajan Pro', serif;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  padding-left: 10px;
 }
 
 /* Contact Page*/

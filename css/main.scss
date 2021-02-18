@@ -147,7 +147,7 @@ footer {
     }
 }
 
-/* Portfolio Page */
+/* Portfolio Page */ /* Portfolio Page */ /* Portfolio Page */ /* Portfolio Page */ /* Portfolio Page */
 
 .portfolioRack {
     height: 100%;
@@ -169,6 +169,36 @@ footer {
                 font-family: 'Trajan Pro', serif;
                 text-decoration: none;
                 color: var(--primary-text-color);
+            }
+        }
+    }
+}
+
+/* Portfolios*/ /* Portfolios*/ /* Portfolios*/
+
+.projectRack {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .projects {
+        list-style: none;
+
+        .projectItem {
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                font-family: 'Trajan Pro', serif;
+                text-decoration: none;
+                color: var(--primary-text-color);
+                padding-left: 10px;
+                
             }
         }
     }
