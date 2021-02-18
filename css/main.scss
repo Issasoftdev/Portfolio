@@ -18,6 +18,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Light.ttf);
+    font-style: normal;
+}
+
 :root {
     --primary-text-color: #ecf0f1;
     --primary-background-color: #222f33;
@@ -31,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 
 section {
     padding: 50px 0;
@@ -135,6 +142,38 @@ footer {
         font-size: 13px;
     }
 }
+
+/* Contact Page*/ /* Contact Page*/ /* Contact Page*/ /* Contact Page*/ /* Contact Page*/
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .emailBox {
+        height: 50px;
+        width: 200px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0;
+
+        h2 {
+            font-family: 'Trajan Pro', serif;
+        }
+    }
+
+    .emailLink {
+        margin: 100px 0 200px 0;
+
+        p {
+            font-family: 'Lato', sans-serif;
+        }
+    }
+}
+
+/* Contact Page*/ /* Contact Page*/ /* Contact Page*/ /* Contact Page*/ /* Contact Page*/
 
 @media screen and (min-width: 1000px) {
 
