@@ -115,7 +115,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 300px;
 
     h1 {
         font-family: 'Metropolis Black', serif;
@@ -164,9 +164,11 @@ footer {
     .heroSection {
         grid-column: 2 / -1;
         height: 100%;
+        padding: 0;
     }
 
     footer {
         grid-column: 1 / -1;
+        grid-row: 3 / -1;
     }
 }

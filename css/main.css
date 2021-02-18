@@ -147,7 +147,7 @@ header nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 150px;
+  height: 300px;
 }
 
 .heroSection h1 {
@@ -210,9 +210,11 @@ footer h6 {
   .heroSection {
     grid-column: 2 / -1;
     height: 100%;
+    padding: 0;
   }
   footer {
     grid-column: 1 / -1;
+    grid-row: 3 / -1;
   }
 }
 /*# sourceMappingURL=main.css.map */
