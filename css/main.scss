@@ -1,5 +1,22 @@
 
 
+@font-face {
+    font-family: 'Metropolis black';
+    src: url(../fonts/Metropolis/Metropolis-Black.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neostone';
+    src: url(../fonts/neostone/NeoStoneDemo.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url(../fonts/trajan-pro/Trajan\ Pro.ttf);
+}
+
 :root {
     --primary-text-color: #ecf0f1;
     --primary-background-color: #222f33;
@@ -93,7 +110,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 150px;
 
     h1 {
         font-family: 'Metropolis Black', serif;
