@@ -48,6 +48,8 @@ ul {
     padding: 0;
 }
 
+/* Navbar */ /* Navbar */  /* Navbar */  /* Navbar */  /* Navbar */ 
+
 header {
     font-family: 'Metropolis black', serif;
     background-color: var(--secondary-background-color);
@@ -73,6 +75,8 @@ header {
     }
 
 }
+
+/* Navbar */ /* Navbar */  /* Navbar */  /* Navbar */  /* Navbar */ 
 
 .logo {
     display: flex;
@@ -140,6 +144,33 @@ footer {
     h6 {
         font-family: 'Metropolis black', serif;
         font-size: 13px;
+    }
+}
+
+/* Portfolio Page */
+
+.portfolioRack {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .portfolio {
+        .portfolioItem {
+            height: 200px;
+            width: 200px;
+            list-style: none;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                font-family: 'Trajan Pro', serif;
+                text-decoration: none;
+                color: var(--primary-text-color);
+            }
+        }
     }
 }
 
