@@ -218,6 +218,21 @@ footer {
         grid-template-rows: 76px 1fr 40px;
     }
 
+    .portContainer {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 76px 1fr 40px;
+
+        .portfolioRack {
+            .portfolio {
+                .portfolioItem {
+                    height: 250px;
+                    width: 500px;
+                }
+            }
+        }
+    }
+
     .contactContainer {
         height: 100vh;
         display: grid;
