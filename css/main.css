@@ -199,8 +199,8 @@ footer h6 {
 }
 
 .contactDetails .emailBox {
-  height: 50px;
-  width: 200px;
+  height: 70px;
+  width: 300px;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -211,7 +211,7 @@ footer h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 100px 0;
+  margin: 150px 0 50px 0;
 }
 
 .contactDetails .emailBox h2 {
@@ -224,6 +224,7 @@ footer h6 {
 
 .contactDetails .emailLink p {
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 /* Contact Page*/
@@ -231,8 +232,13 @@ footer h6 {
 /* Contact Page*/
 /* Contact Page*/
 /* Contact Page*/
+/* Responsiveness*/
+/* Responsiveness*/
+/* Responsiveness*/
+/* Responsiveness*/
+/* Responsiveness*/
 @media screen and (min-width: 1000px) {
-  body {
+  .homeContainer {
     height: 100vh;
     display: -ms-grid;
     display: grid;
@@ -240,6 +246,29 @@ footer h6 {
         grid-template-columns: 1fr 3fr;
     -ms-grid-rows: 76px 1fr 40px;
         grid-template-rows: 76px 1fr 40px;
+  }
+  .contactContainer {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 76px 1fr 40px;
+        grid-template-rows: 76px 1fr 40px;
+  }
+  .contactContainer .contactDetails {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactContainer .contactDetails .emailBox {
+    height: 70px;
+    width: 500px;
+    margin: 100px 0 50px 0;
+  }
+  .contactContainer .contactDetails .emailLink {
+    margin: 20px 0 200px 0;
+  }
+  .contactContainer .contactDetails .emailLink p {
+    font-size: 24px;
   }
   header {
     grid-column: 1 / -1;
