@@ -1,37 +1,37 @@
-body {
-  background-color: #222f33;
-  margin: 0;
-  padding: 0;
-  color: #ecf0f1;
+:root {
+  --primary-text-color: #ecf0f1;
+  --primary-background-color: #222f33;
+  --secondary-background-color: #E1AD01;
 }
 
-.homeContainer {
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
   height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 80px 150px 1fr 1fr 40px;
-      grid-template-rows: 80px 150px 1fr 1fr 40px;
-      grid-template-areas: 'h' 'l' 's' 'hero' 'f';
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 header {
   font-family: 'Metropolis black', serif;
-  background-color: #E1AD01;
-  grid-area: 'h';
+  background-color: var(--secondary-background-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  place-content: center;
+  padding: 30px;
 }
 
 header nav ul {
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,11 +44,10 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #ecf0f1;
+  color: var(--primary-text-color);
 }
 
 .logo {
-  grid-area: 'l';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,6 +94,7 @@ header nav ul li a {
 
 .skills ul li {
   list-style: none;
+  margin: 20px 0;
 }
 
 .skills ul li h3 {
@@ -103,7 +103,6 @@ header nav ul li a {
 }
 
 .heroSection {
-  background-color: #222f33;
   background-image: url(../Images/Photos/APSunset.JPG);
   background-size: cover;
   display: -webkit-box;
@@ -115,6 +114,7 @@ header nav ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 200px;
 }
 
 .heroSection h1 {
@@ -122,8 +122,8 @@ header nav ul li a {
 }
 
 footer {
+  height: 40px;
   background-color: #E1AD01;
-  grid-column: 1 / -1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
