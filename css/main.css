@@ -276,10 +276,6 @@ footer h6 {
   padding-left: 10px;
 }
 
-.portfoliodesignContainer {
-  height: 100vh;
-}
-
 .portfoliodesignContainer .pageTitle {
   padding: 0;
   display: -webkit-box;
@@ -439,6 +435,31 @@ footer h6 {
   .webdesignContainer .projectRack .projects .projectItem {
     height: 250px;
     width: 500px;
+  }
+  .portfoliodesignContainer {
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 76px 100px 1fr 40px;
+        grid-template-rows: 76px 100px 1fr 40px;
+  }
+  .portfoliodesignContainer .pageTitle h1 {
+    width: 80%;
+  }
+  .portfoliodesignContainer .pageViews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .portfoliodesignContainer .pageViews .desktopView img {
+    height: 300px;
+  }
+  .portfoliodesignContainer .pageViews .mobileView {
+    padding: 25px 0 50px 0;
   }
   .contactContainer {
     height: 100vh;

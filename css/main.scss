@@ -209,7 +209,7 @@ footer {
 }
 
 .portfoliodesignContainer {
-    height: 100vh;
+
 
     .pageTitle {
         padding: 0;
@@ -334,6 +334,34 @@ footer {
                     height: 250px;
                     width: 500px;
                 }
+            }
+        }
+    }
+
+    .portfoliodesignContainer {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 76px 100px 1fr 40px;
+
+        .pageTitle {
+ 
+            h1 {
+               width: 80%;     
+            }
+        }
+
+        .pageViews {
+            flex-direction: row;
+            align-items: center;
+
+            .desktopView {
+                img {
+                    height: 300px;
+                }
+            }
+
+            .mobileView {
+                padding: 25px 0 50px 0;
             }
         }
     }
