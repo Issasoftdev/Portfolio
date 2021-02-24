@@ -160,8 +160,15 @@ footer {
     align-items: center;
 
     .portfolio {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
         .portfolioItem {
-            height: 200px;
+            margin: 20px;
+            height: 150px;
             width: 200px;
             list-style: none;
             background-color: black;
@@ -314,10 +321,19 @@ footer {
         grid-template-rows: 76px 1fr 40px;
 
         .portfolioRack {
+            grid-column: 1 / -1;
+            grid-row: 2 / 3;
+
             .portfolio {
+                height: 100%;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+
                 .portfolioItem {
-                    height: 250px;
-                    width: 500px;
+                    height: 200px;
+                    width: 350px;
                 }
             }
         }
