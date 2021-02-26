@@ -1,4 +1,8 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: 'Metropolis black';
@@ -20,7 +24,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url(../fonts/Lato/Lato-Light.ttf);
+    src: url(../fonts/Lato/Lato-Thin.ttf);
     font-style: normal;
 }
 
@@ -30,3 +34,84 @@
     --secondary-background-color: #E1AD01;
 }
 
+body {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSection {
+    height: 400px;
+    margin: 10px;
+    border-bottom-left-radius: 50px;
+    background-image: url("../Images/Photos/APSunset.JPG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    header {
+        height: 40px;
+        backdrop-filter: blur(8px);
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                font-family: "Neostone";
+                text-decoration: none;
+                color: var(--primary-background-color);
+                font-size: 20px;
+            }
+        }
+    }
+
+    .title {
+        color: var(--primary-text-color);
+        margin: 0 0 90px 20px;
+
+        h1 {
+            font-family: "Trajan Pro";
+            font-size: 22px;
+        }
+
+        h2 {
+            font-family: "Lato";
+            font-weight: 100;
+            font-size: 15px;
+            padding: 10px 0 10px 0;
+            
+        }
+    }
+}
+
+.aboutmeSection {
+    height: 400px;
+    margin: 10px;
+    background-image: url("../Images/Aboutcentrepiece.jpg");
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center; 
+
+        li {
+            backdrop-filter: blur(8px);
+            list-style: none;
+            padding: 20px;
+            font-family: "Lato";
+        }
+    }
+}
