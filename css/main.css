@@ -112,8 +112,7 @@ body {
   margin: 10px;
   background-image: url("../Images/Aboutcentrepiece.jpg");
   background-size: cover;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
   color: #ecf0f1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,5 +146,36 @@ body {
   list-style: none;
   padding: 20px;
   font-family: "Lato";
+}
+
+.skillSection {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skillSection ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skillSection ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.skillSection ul li img {
+  height: 80px;
 }
 /*# sourceMappingURL=main.css.map */
