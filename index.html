@@ -4,38 +4,53 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Issa's Front-end Developer Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">	
+		<link rel="stylesheet" type="text/css" href="./CSS/Stylesheet.css">	
 	</head>
 
 	<body>
 
-		<section class="heroSection">
+		<main class="mainSection">
 			<header>
-				<nav>
-					<a href="#">Issa</a>
+				<a class="logo" href="#">Issa</a>
+
+				<svg id="mobile-cta" class="menuIcon" viewBox="0 0 100 80" width="30" height="40">
+					<rect width="100" height="15" rx="8"></rect>
+					<rect y="30" width="100" height="15" rx="8"></rect>
+					<rect y="60" width="100" height="15" rx="8"></rect>
+				</svg>
+
+				<nav class="navBar">
+					<div class="mobileMenuHeader">
+						<div class="mmHeaderContainer">
+							<h3>Portfolio's</h3>
+							<img src="Images/Hidemenu-01.png" alt="Exit Navigation" id="mobile-exit" class="exitIcon">
+						</div>
+					</div>
+					<ul class="menuItems">
+						<li><a href="#">Logo Design</a></li>
+					</ul>
 				</nav>
+
 			</header>
 
 			<div class="title">
 				<h1>Dumisa Mzwakali</h1>
 
-				<h2>Front-end Developer</h2>
+				<h2>Multimedia Designer</h2>
+				<h2>Web Developer</h2>
 			</div>
-		</section>
+		</main>
 		
 	
 		<section class="aboutmeSection">
-				<ul>
-					<li>Final Year Multimedia Design Student at the University of Johannesburg, specialising in UI/UX Design</li>
-					<li>Passionate and motivated to produce results through continuous iteration to produce results quickly and continuously improve digital products</li>
+				<ul class="aboutmeWrapper">
+					<li class="aboutmeItem">Final Year Multimedia Design Student at the University of Johannesburg, specialising in UI/UX Design</li>
+					<li class="aboutmeItem">Passionate and motivated to produce results through continuous iteration to produce results quickly and continuously improve digital products</li>
 				</ul>
 		</section>
 
 			<section class="skillSection">
-				<ul>
-					<li><img src="/Images/iconfinder_22_939737.png" alt=""></li>
-					<li><img src="/Images/iconfinder_social_style_3_css3_341095.png" alt=""></li>
-				</ul>
+				<img src="./Images/78-787363_transparent-javascript-icon-png-html-css-js-png.png" alt="HTML, CSS and Javascript" class="webdevKitImage">
 			</section>
 
 		<section class="projectsSection">
