@@ -51,6 +51,7 @@ body {
 
 .mainSectionStbd {
     height: 400px;
+    background-image: url();
     background-size: cover;
     background-position: center;
     margin: 10px;
