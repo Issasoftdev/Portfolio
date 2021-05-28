@@ -1,6 +1,7 @@
 const menuBtn = document.getElementById("menuBtn");
 const menuExitBtn = document.getElementById("menuExitBtn");
 const portfolioMenu = document.getElementById("portfolioMenu");
+const header = document.getElementById("header");
 
 function openMenu() {
     portfolioMenu.style.display = "block";
