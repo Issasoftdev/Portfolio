@@ -113,3 +113,33 @@ header {
     backdrop-filter: blur(10px);
     padding: 20px;
 }
+
+@media screen and (min-width: 750px) {
+    body {
+        display: flex;
+    }
+
+    .mainSection {
+        margin: 0;
+        height: 100vh;
+        width: 1fr;
+        background-position: center;
+        border-bottom-left-radius: 0;
+    }
+
+    .logo {
+        color: black;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .aboutmeSection {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        border-top-right-radius: 0;
+    }
+}
