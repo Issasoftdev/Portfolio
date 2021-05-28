@@ -49,6 +49,15 @@ body {
     border-bottom-left-radius: 50px;
 }
 
+
+.headerContainer {
+    backdrop-filter: blur(10px);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
     font-family: 'Neostone';
     font-size: 22px;
@@ -59,14 +68,6 @@ body {
 
 .menuIcon {
     margin-right: 20px;
-}
-
-header {
-    backdrop-filter: blur(5px);
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .title {
@@ -88,7 +89,6 @@ header {
 .navBar {
     display: none;
     position: absolute;
-    height: 200px;
     width: 50%;
     top: 0;
     right: 0;
@@ -97,7 +97,7 @@ header {
 }
 
 .mmHeaderContainer {
-    height: 30px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
