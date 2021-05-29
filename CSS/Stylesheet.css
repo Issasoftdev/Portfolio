@@ -34,7 +34,9 @@
     --secondary-background-color: #E1AD01;
 }
 
-body {
+/* Landing Page */ /* Landing Page */ /* Landing Page */ /* Landing Page */ /* Landing Page */
+
+.landingPage {
     background-color: var(--primary-background-color);
 }
 
@@ -49,19 +51,6 @@ body {
     border-bottom-left-radius: 50px;
 }
 
-.mainSectionStbd {
-    height: 400px;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-bottom-left-radius: 50px;
-}
-
-
 .headerContainer {
     backdrop-filter: blur(10px);
     height: 50px;
@@ -70,7 +59,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.landingPageLogo {
     font-family: 'Neostone';
     font-size: 22px;
     text-decoration: none;
@@ -175,8 +164,44 @@ body {
     padding: 20px;
 }
 
+/* Landing Page */ /* Landing Page */ /* Landing Page */ /* Landing Page */ /* Landing Page */
+
+.wheelmanContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainSectionStbd {
+    height: 400px;
+    background-image: url(../Images/The_Wheelman/Cover.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 50px;
+}
+
+.mainSectionStbd .menuIcon {
+    fill: white;
+}
+
+
+.frameWrapper {
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.frame {
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (min-width: 750px) {
-    body {
+
+    .landingPage {
         display: flex;
     }
 
@@ -188,12 +213,27 @@ body {
         border-bottom-left-radius: 0;
     }
 
-    .logo {
+    .landingPageLogo {
         color: black;
     }
 
     .menuIcon {
         display: none;
+    }
+
+    .navBar {
+        display: block;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+
+    .mmHeaderContainer {
+        display: none;
+    }
+
+    .menuItems {
+        align-items: flex-start;
     }
 
     .aboutmeSection {
