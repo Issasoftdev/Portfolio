@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wheelmanContainer {
+    background-color: black;
+}
+
+.mainSectionStbd {
+    height: 450px;
+    background-image: url(../Images/The_Wheelman/Cover.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 20px 10px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 50px;
+    border-width: 1px;
+}
+
+.headerContainer {
+    backdrop-filter: blur(10px);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Neostone';
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+.menuIcon {
+    margin-right: 20px;
+    fill: white;
+}
+
+.navBar {
+    display: none;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.mmHeaderContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exitIcon {
+    height: 15px;
+    margin-left: 15px;
+}
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuItems li {
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+    border-style: none none solid none;
+}
+
+.menuItems li a {
+    font-family: 'Trajan Pro';
+    font-size: 10pt;
+    color: white;
+    text-decoration: none;
+}
+
+.frameWrapper {
+    margin: 10px;
+}
+
+.frame {
+    width: 100%;
+}
