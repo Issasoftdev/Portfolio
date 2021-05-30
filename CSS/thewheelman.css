@@ -89,3 +89,35 @@
 .frame {
     width: 100%;
 }
+
+@media screen and (min-width: 750px) {
+
+    .wheelmanContainer {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+    }
+
+    .mainSectionStbd {
+        margin: 0;
+        height: 100vh;
+        border-bottom-left-radius: 0;
+        border-style: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .storyboardWrapper {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .frameWrapper {
+        flex-grow: 1;
+        width: 150px;
+    }
+}
