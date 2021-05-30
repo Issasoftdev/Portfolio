@@ -13,11 +13,7 @@
     background-image: url(../Images/The_Wheelman/Cover.png);
     background-size: cover;
     background-position: center;
-    margin: 10px 10px 20px 10px;
-    border-style: solid;
-    border-color: white;
-    border-bottom-left-radius: 50px;
-    border-width: 1px;
+    margin-bottom: 20px;
 }
 
 .headerContainer {
