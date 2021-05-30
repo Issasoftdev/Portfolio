@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Metropolis black';
+    src: url(../fonts/Metropolis/Metropolis-Black.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neostone';
+    src: url(../fonts/neostone/NeoStoneDemo.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url(../fonts/trajan-pro/TrajanPro-Bold.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Hairline.ttf);
+    font-style: normal;
+}
