@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainSectionVP {
+    height: 400px;
+    background-image: url("../Images/Vector_Portraits/Cover.png");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    backdrop-filter: blur(10px);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vPLogo {
+    font-family: 'Neostone', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+.menuIcon {
+    fill: white;
+    margin-right: 20px;
+}
+
+.navBar {
+    display: none;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.exitIcon {
+    height: 15px;
+    margin-left: 15px;
+}
+
+.mmHeaderContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuItems li {
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+    border-style: none none solid none;
+}
+
+.menuItems li a {
+    font-family: 'Trajan Pro';
+    font-size: 10pt;
+    color: white;
+    text-decoration: none;
+}
+
