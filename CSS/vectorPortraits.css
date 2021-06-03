@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+:root {
+    --primary-text-color: #ecf0f1;
+    --primary-background-color: #222f33;
+    --secondary-background-color: #E1AD01;
+}
+
+.vectorPortraitsContainer {
+    background-color: rgb(35, 35, 35);
+}
+
 .mainSectionVP {
     height: 400px;
     background-image: url("../Images/Vector_Portraits/Cover.png");
@@ -74,5 +84,13 @@
     font-size: 10pt;
     color: white;
     text-decoration: none;
+}
+
+.portraitWrapper {
+    margin: 20px;
+}
+
+.portraitItem {
+    width: 100%;
 }
 
