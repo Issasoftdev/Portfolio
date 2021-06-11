@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-text-color: #ecf0f1;
+    --primary-background-color: #222f33;
+    --secondary-background-color: #E1AD01;
+}
+
+body {
+    background-color: black;
+}
+
+.mainSectionLogo {
+    height: 400px;
+    background-image: url("../Images/LogoDesign/Utopian\ Logo\ 2.1-01.png");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 50px;
+}
+
+.headerContainer {
+    backdrop-filter: blur(10px);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLogo {
+    font-family: 'Neostone';
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.menuIcon {
+    margin-right: 20px;
+}
+
+.navBar {
+    display: none;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.mmHeaderContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exitIcon {
+    height: 15px;
+    margin-left: 15px;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuItems li {
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+    border-style: none none solid none;
+}
+
+.menuItems li a {
+    font-family: 'Trajan Pro';
+    font-size: 10pt;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.logoWrapper {
+    margin: 20px;
+}
+
+.logoItem {
+    width: 100%;
+}
