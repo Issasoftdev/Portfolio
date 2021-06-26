@@ -199,8 +199,13 @@
 
 @media screen and (min-width: 750px) {
 
+    html {
+        width: 100%;
+    }
+
     .landingPage {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
     }
 
     .mainSection {
@@ -241,4 +246,15 @@
         background-position: center;
         border-top-right-radius: 0;
     }
+
+    .skillSection {
+        grid-column: 1 / -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .skillWrapper {
+        width: 300px;
+    }
+
 }
